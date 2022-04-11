@@ -1,6 +1,6 @@
 [Flashscore](https://www.flashscore.ru.com/) parsing with selenium & bs4
 
-##How to install
+## How to install
 ```
 git clone https://github.com/ilyashirko/fs_selenium
 cd fs_selenium
@@ -12,7 +12,7 @@ pip3 install -r requirements.txt
 Also you will need google-chrome-stable (i used 99.0.4844.82).  
 And chromedriver for your chrome version.  
 
-##How to use
+## How to use  
 create .env and write full name of your future sqlite3 database to `DATABASE`:  
 ```
 DATABASE=fs.sqlite3
